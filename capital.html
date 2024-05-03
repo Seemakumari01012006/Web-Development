@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="state"></p>
+    <script>
+        const state= ["Andhra pradesh","Arunachal pradesh","Assam",
+        "Bihar","chhatisgarh","Goa","Gujarat","harayana","Himachal pradesh",
+        "Jharkhand","kaernatak","kerala","Madhya pradesh","Maharashtra","maipur","Meghalaya","Mizoram","Nagaland","Odisha","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telengana","Treipura","Uttar pradesh","Uttrakhand","West bengal",""];
+        let text="";
+        for(let i=0;i<state.length;i++){
+            text+= state[i]+"<br>";
+        }
+        document.getElementById("state").innerHTML = text;
+    </script>
+</body>
+</html>
